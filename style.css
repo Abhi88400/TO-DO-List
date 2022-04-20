@@ -1,0 +1,109 @@
+.navbar {
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header {
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+.content {
+    /* height: 100vh; */
+    border: 3px solid black;
+    width: 700px;
+    margin: 5px auto;
+}
+
+.main-tags ul li {
+    border: 2px solid red;
+    border-radius: 6px;
+    padding: 4px 4px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.main-tags ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.main-search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-search input {
+    padding: 6px 1px;
+    border-radius: 5px;
+}
+
+.main-search button {
+    padding: 6px 3px;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+}
+
+.main-tags {
+    flex: 0.5;
+}
+
+.to-do-list h2 {
+
+    text-align: center;
+}
+
+.To-Do-List-item {
+    display: flex;
+    justify-content: space-around;
+    /* border: 5px solid red; */
+    align-items: center;
+
+}
+
+.To-Do-List-item h3 {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+    padding: 3px;
+    background-color: gainsboro;
+
+}
+
+.To-Do-List-item-controls {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    min-width: 150px;
+}
+
+.To-Do-List-item-controls button {
+
+    margin: 2px;
+}
+
+.To-Do-List-Input {
+    border: 3px solid black;
+    padding: 4px;
+    width: 50%;
+    display: none;
+}
+
+
+
+/* .main-tags ul li {
+    border: 2px solid gray;
+    flex-direction: row;
+    justify-content: space-around;
+
+} */
